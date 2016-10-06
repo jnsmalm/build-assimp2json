@@ -1,0 +1,1 @@
+# build-assimp2json
