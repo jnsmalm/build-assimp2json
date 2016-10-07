@@ -1,0 +1,15 @@
+version: 1.0.{build}
+build_script:
+- ps: .\build.ps1
+artifacts:
+- path: assimp2json*.zip
+  name: assimp2json
+deploy:
+- provider: GitHub
+  tag: '%APPVEYOR_REPO_TAG_NAME%'
+  auth_token:
+    secure: TcTgvgqFgep3CawLJfghwhG4VwcZm6+c4GwCdLXg4zUFktqUEWQXkn4QQUG3WOxY
+  artifact: assimp2json
+  draft: true
+  on:
+    APPVEYOR_REPO_TAG: true
