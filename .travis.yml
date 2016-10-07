@@ -17,7 +17,7 @@ deploy:
   api_key:
     secure: mUOez95L5owLWhbDT93Ucr4n81f8mCrvwJ+hHIa37cyLbv5xHiqKTLGJcQqLCCB07Cmng+mYEHNJlddLMuUuf8q1QDM0BK0Ip2CvSKW4JTK28kqH7wtlEl9q04Q34MgS0P30Rdu+ZqOLkELl2PmUJIbDxV4ADwYccBN/eaa6jmZ7dT+LhXRjlnJtNALYzRLY6NQOrRqblfPbbDmCtl/bMxY3H64jrqDy2EnO8Kotoz+PDV5yhzWzMs+k84gvxPRcrIDI5EjXw/qF+LIL3dyIYX81xXWrJDhU4igIHZJ7VVM/Wpc534RX5hNelhtFPuVl7HkVM2EuCLBUe5LCBGOnejSZSzBDQRjtAyD+aMBzCLEMLUTrxmRppDk4mRDTRvcVrBCLTMkscJMNBiB+WLIBgBLBpKfhKpoaUBYsBT9+KgJSr5tXRZp/W1r+qd7EE39sO7Yvga/a2SmNQKW7Aka2cqV4SGLEGDTlUxGSkhZnci1a/EgN2sFNKvgoXc0qXxvQ3u5xsCHSMxSSPhBHub2a0z8U4+Ml+B+vnSCi310ApAp1BEHxPqcBMZVXTzmbhiW3JYGHYaKknnwt6YQzqiOGgYPBRoqQ2coDDDMPES+yvSOcAQnLvOxKk3JVZaf7uPnkdg8NQWWQKLsWXHM2EEaWUgFj4t0Yn7//YVlkWPJaYD8=
   file_glob: true
-  file: assimp2json.tar.gz
+  file: assimp2json*.tar.gz
   skip_cleanup: true
   draft: true
   on:
